@@ -10,7 +10,7 @@ function Contact() {
         <div>
             <HeaderForRoute></HeaderForRoute>
             <div
-                className="bg-slate-800 pt-28"
+                className="bg-slate-800 py-28"
                 style={{
                     backgroundColor: "transparent",
                     backgroundImage:

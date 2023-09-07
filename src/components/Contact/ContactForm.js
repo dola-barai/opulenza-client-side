@@ -30,7 +30,7 @@ function ContactForm() {
                 <h2 className="text-3xl font-extrabold text-black mb-4">Contact Us</h2>
                 <form onSubmit={handleSubmit} className="space-y-6">
                     <div>
-                        <label className="block mb-1 text-lg text-black font-bold">
+                        <label className="label-text font-primary text-white">
                             Name
                         </label>
                         <input
@@ -38,12 +38,12 @@ function ContactForm() {
                             name="name"
                             value={formData.name}
                             onChange={handleChange}
-                            className="w-full px-4 py-2 rounded-lg border-lg  focus:outline-4 focus:ring focus:border-blue-500 text-lg text-gray-950"
+                            className="w-full px-4 py-2 rounded-lg h-[40px] bg-opacity-10 border-lg  focus:outline-4 focus:ring focus:border-blue-500 text-lg text-gray-950"
                             required
                         />
                     </div>
                     <div>
-                        <label className="block mb-1 text-lg text-black font-bold">
+                        <label className="label-text font-primary text-white">
                             Email
                         </label>
                         <input
@@ -51,12 +51,12 @@ function ContactForm() {
                             name="email"
                             value={formData.email}
                             onChange={handleChange}
-                            className="w-full px-4 py-2 rounded-lg border focus:outline-4 focus:ring focus:border-blue-500 text-lg text-gray-950"
+                            className="w-full px-4 py-2 rounded-lg h-[40px] bg-opacity-10 border focus:outline-4 focus:ring focus:border-blue-500 text-lg text-gray-950"
                             required
                         />
                     </div>
                     <div>
-                        <label className="block mb-1 text-lg text-black font-bold">
+                        <label className="label-text font-primary text-white">
                             Subject
                         </label>
                         <input
@@ -64,12 +64,12 @@ function ContactForm() {
                             name="subject"
                             value={formData.subject}
                             onChange={handleChange}
-                            className="w-full px-4 py-2 rounded-lg border focus:outline-4 focus:ring focus:border-blue-500 text-lg text-gray-950"
+                            className="w-full px-4 py-2 rounded-lg h-[40px] bg-opacity-10 border focus:outline-4 focus:ring focus:border-blue-500 text-lg text-gray-950"
                             required
                         />
                     </div>
                     <div>
-                        <label className="block mb-1 text-lg text-black font-bold">
+                        <label className="label-text font-primary text-white">
                             Message
                         </label>
                         <textarea
@@ -77,7 +77,7 @@ function ContactForm() {
                             value={formData.message}
                             onChange={handleChange}
                             rows="4"
-                            className="w-full px-4 py-2 rounded-lg border focus:outline-4 focus:ring focus:border-blue-500 text-lg text-gray-950"
+                            className="w-full px-4 py-2 rounded-lg bg-opacity-10 border focus:outline-4 focus:ring focus:border-blue-500 text-lg text-gray-950"
                             required
                         ></textarea>
                     </div>

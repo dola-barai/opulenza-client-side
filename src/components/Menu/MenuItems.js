@@ -46,9 +46,9 @@ const MenuItems = () => {
                                 indian.map(items =>
                                     <div key={items.id} className="flex space-x-2 text-white bg-black bg-opacity-40 p-2 rounded-md">
                                         <img
+                                            src={items.image}
                                             style={{ borderRadius: '0 200px 200px 200px' }}
                                             className="w-[90px] h-[90px]"
-                                            src={items.image}
                                             alt='food'
                                         />
                                         <div>

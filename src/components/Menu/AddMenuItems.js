@@ -17,7 +17,7 @@ const AddMenuItems = () => {
         const recipe = form.recipe.value;
 
         const addMenu = {
-            photoURL: image,
+            image: image,
             menu: menu,
             category: category,
             recipe: recipe,
@@ -69,7 +69,7 @@ const AddMenuItems = () => {
                                 <label className="label">
                                     <span className="label-text font-primary text-white">Image URL</span>
                                 </label>
-                                <input type="text" name="image" placeholder="Image URL" className="input h-[40px] bg-opacity-10" required />
+                                <input type="url" name="image" placeholder="Image URL" className="input h-[40px] bg-opacity-10" required />
                             </div>
                             <div>
                                 <div className="form-control">
