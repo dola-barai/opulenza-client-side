@@ -1,9 +1,9 @@
 import React from "react";
 
 import TestimonialCarousel from "./TestimonialCarousel";
-import { testimonialData } from "../data";
+import { testimonialData } from "../../data";
 import { motion } from "framer-motion";
-import { fadeIn } from "../variants";
+import { fadeIn } from "../../variants";
 
 const Testimonial = () => {
   const { title, subtitle, slider } = testimonialData;

@@ -3,7 +3,8 @@ import React, { useEffect, useState } from "react";
 import Nav from "./Nav";
 import NavMobile from "./NavMobile";
 
-import Logo from "../assets/img/header/logo-white.png";
+import Logo from "../../assets/img/header/logo-white.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [bg, setBg] = useState(false);
@@ -25,9 +26,9 @@ const Header = () => {
     >
       <div className="container mx-auto flex items-center justify-between">
         {/* logo*/}
-        <a href="">
+        <Link to="">
           <img width={70} src={Logo} alt="" />
-        </a>
+        </Link>
         {/* NAV*/}
         <Nav />
         {/* nav mobile */}

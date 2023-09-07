@@ -1,8 +1,8 @@
 import React from "react";
 
-import { menuData } from "../data";
+import { menuData } from "../../data";
 import { motion } from "framer-motion";
-import { fadeIn, staggerContainer } from "../variants";
+import { fadeIn, staggerContainer } from "../../variants";
 const Menu = () => {
   const { title, subtitle, menuItems, btnText } = menuData;
   return (
@@ -14,7 +14,7 @@ const Menu = () => {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.1 }}
-          className="container mx-auto felx flex-col items-center text-center"
+          className="container mx-auto flex flex-col items-center text-center"
         >
           <motion.h2
             variants={fadeIn("down", "tween", 0.2, 1.6)}
@@ -65,7 +65,7 @@ const Menu = () => {
                       >
                         <img src={image} alt="" />
                       </div>
-                      <div className="bg-[#5a5a5a] text-white flex-1 felx felx-col justify-center px-6 lg:p-12 lg:max-h-[250px] xl:max-h-max">
+                      <div className="bg-[#5a5a5a] text-white flex-1 flex flex-col justify-center px-6 lg:p-12 lg:max-h-[250px] xl:max-h-max">
                         <div className="text-center">
                           <div className="text-xl font-semibold text-dark xl:text-2xl">
                             {name}

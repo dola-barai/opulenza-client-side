@@ -1,8 +1,8 @@
 import React from "react";
-import { heroData } from "../data";
+import { heroData } from "../../data";
 
 import { motion } from "framer-motion";
-import { fadeIn, staggerContainer } from "../variants";
+import { fadeIn, staggerContainer } from "../../variants";
 const Hero = () => {
   const { pretitle, title, subtitle, btnText } = heroData;
   return (

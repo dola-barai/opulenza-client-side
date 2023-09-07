@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import "../slider.css";
+import "../../../src/slider.css";
 const TestimonialCarousel = ({ slider }) => {
   return (
     <Carousel

@@ -1,7 +1,7 @@
 import React from "react";
-import { teamData } from "../data";
+import { teamData } from "../../data";
 import { motion } from "framer-motion";
-import { fadeIn } from "../variants";
+import { fadeIn } from "../../variants";
 const Team = () => {
   const { pretitle, title, sub1, sub2, name, occupation, chefImg } = teamData;
   return (

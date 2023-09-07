@@ -1,11 +1,10 @@
 import React from "react";
 import Newsletter from "./Newsletter";
-import Copyright from "./Copyright";
-import Socials from "./Socials";
 
-import { footerData } from "../data";
+
+import { footerData } from "../../data";
 import { motion } from "framer-motion";
-import { fadeIn, staggerContainer } from "../variants";
+import { fadeIn, staggerContainer } from "../../variants";
 
 const Footer = () => {
   const { contact, hours, social } = footerData;

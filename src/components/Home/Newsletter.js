@@ -1,9 +1,9 @@
 import React from "react";
 
-import { newsletterData } from "../data";
+import { newsletterData } from "../../data";
 
 const Newsletter = () => {
-  const { title, subtitle, placeholder, btnText } = newsletterData;
+  const { title, subtitle,  btnText } = newsletterData;
   return (
     <div className="bg-none lg:bg-newsletter lg:bg-cover lg:h-[220px] lg:bg-center lg:px-24 xl:bg-auto">
       <div className="flex flex-col lg:flex-row justify-between items-center h-full">

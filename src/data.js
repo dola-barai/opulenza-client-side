@@ -19,28 +19,6 @@ import Avatar1 from "../src/assets/img/testimonial/avatar1.png";
 import Avatar2 from "../src/assets/img/testimonial/avatar2.png";
 import Avatar3 from "../src/assets/img/testimonial/avatar3.png";
 
-export const navigation = [
-  {
-    name: "Home",
-    href: "home",
-  },
-  {
-    name: "About Us",
-    href: "about",
-  },
-  {
-    name: "Menu",
-    href: "menu",
-  },
-  {
-    name: "Contact us",
-    href: "contact",
-  },
-  {
-    name: "Booking",
-    href: "booking",
-  },
-];
 
 export const heroData = {
   pretitle: "Nothing Brings Together Like",
