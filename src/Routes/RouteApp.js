@@ -4,6 +4,7 @@ import Home from '../Home';
 import MenuItems from '../components/Menu/MenuItems';
 import AddMenuItems from '../components/Menu/AddMenuItems';
 import AboutUS from '../components/AboutUs/AboutUS';
+import Contact from '../components/Contact/Contact';
 
 
 function RouteApp() {
@@ -14,6 +15,7 @@ function RouteApp() {
       <Route path="/about" element={<AboutUS />} />
       <Route path="/menu" element={<MenuItems />} />
       <Route path="/addMenu" element={<AddMenuItems />} />
+      <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
